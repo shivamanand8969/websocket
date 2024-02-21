@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 68, 68);
+}
+h1{
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.chatbox{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(235, 241, 247);
+    border: 2px solid blue;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+}
+li{
+    list-style: none;
+}
+.left-text{
+    width: 70%;
+    border: 2px solid blue;
+
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 10px;
+}
+.left-text p{
+    margin-block: 4px;
+
+}
+.left-text em{
+    margin-left: 190px;
+    font-size: small;
+    color: red;
+}
+
+.right-text{
+    width: 70%;
+    background-color: rgb(204, 200, 195);
+    border: 2px solid blue;
+    color: black;
+    font-size: large;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 10px;
+    margin-left: auto;
+
+}
+.right-text p{
+    margin-block: 4px;   
+}
+.right-text em{
+    font-size: small;
+    color: red;
+
+}
+
+.inputbox{
+        width: 73%;
+        padding: 10px;
+        border-bottom-left-radius: 10px;
+        border: 2px solid blue;
+        outline: 2px solid rgb(7, 7, 184);
+        margin-left: 1px;
+}
+button{
+    padding-block: 10px;
+    padding-inline: 24px;
+    border: 2px solid blue;
+    border-bottom-right-radius: 10px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(186, 188, 190);
+}
